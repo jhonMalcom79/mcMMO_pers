@@ -8,14 +8,14 @@ import com.gmail.nossr50.events.chat.McMMOPartyChatEvent;
 import com.gmail.nossr50.runnables.party.PartyChatTask;
 
 public class PartyChatManager extends ChatManager {
-    private Party party;                                                                              
+    private Party party;                                                                             
 
     protected PartyChatManager(Plugin plugin) {
         super(plugin, Config.getInstance().getPartyDisplayNames(), Config.getInstance().getPartyChatPrefix());
     }                                                                    
 
     public void setParty(Party party) {
-        this.party = party;
+        this.party = party; 
     }                                                                    
 
     @Override
