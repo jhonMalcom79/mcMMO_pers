@@ -13,7 +13,7 @@ public class AdminChatManager extends ChatManager {
     @Override
     public void handleChat(String senderName, String displayName, String message, boolean isAsync) {
         handleChat(new McMMOAdminChatEvent(plugin, senderName, displayName, message, isAsync));
-    }
+    }      
 
     @Override
     protected void sendMessage() {
