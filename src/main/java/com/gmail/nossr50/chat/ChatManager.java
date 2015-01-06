@@ -34,11 +34,11 @@ public abstract class ChatManager {
 
         sendMessage();
     }
-
+                                                 
     public void handleChat(String senderName, String message) {
         handleChat(senderName, senderName, message, false);
     }
-
+                                                                                                    
     public void handleChat(Player player, String message, boolean isAsync) {
         handleChat(player.getName(), player.getDisplayName(), message, isAsync);
     }
@@ -51,3 +51,4 @@ public abstract class ChatManager {
 
     protected abstract void sendMessage();
 }
+               

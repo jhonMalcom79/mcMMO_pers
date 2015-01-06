@@ -26,6 +26,7 @@ public class ChatManagerFactory {
                 return partyChatManagers.get(plugin);
             default:
                 return null;
-        }
-    }          
-}
+        }                                                  
+    }                                   
+}                                                  
+                                               
