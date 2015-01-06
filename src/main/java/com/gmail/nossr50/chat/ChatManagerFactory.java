@@ -15,7 +15,7 @@ public class ChatManagerFactory {
             case ADMIN:
                 if (!adminChatManagers.containsKey(plugin)) {
                     adminChatManagers.put(plugin, new AdminChatManager(plugin));
-                }
+                }                                                 
 
                 return adminChatManagers.get(plugin);
             case PARTY:

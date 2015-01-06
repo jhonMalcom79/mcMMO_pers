@@ -51,4 +51,4 @@ public abstract class ChatManager {
 
     protected abstract void sendMessage();
 }
-               
+              

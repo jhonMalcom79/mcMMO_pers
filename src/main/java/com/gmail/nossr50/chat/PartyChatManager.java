@@ -26,6 +26,5 @@ public class PartyChatManager extends ChatManager {
     @Override
     protected void sendMessage() {
         new PartyChatTask(plugin, party, senderName, displayName, message).runTask(plugin);
-    }                    
-}                                                              
-                                                                                                    
+    }
+}
