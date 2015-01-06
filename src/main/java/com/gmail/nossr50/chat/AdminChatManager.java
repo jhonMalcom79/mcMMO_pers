@@ -17,6 +17,6 @@ public class AdminChatManager extends ChatManager {
 
     @Override
     protected void sendMessage() {
-        plugin.getServer().broadcast(message, "mcmmo.chat.adminchat");
+        plugin.getServer().broadcast(message, "mcmmo.chat.adminchat");      
     }
 }
