@@ -19,4 +19,4 @@ public class AdminChatManager extends ChatManager {
     protected void sendMessage() {
         plugin.getServer().broadcast(message, "mcmmo.chat.adminchat");      
     }
-}
+}        

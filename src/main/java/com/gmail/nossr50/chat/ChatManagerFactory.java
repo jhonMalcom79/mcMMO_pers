@@ -27,5 +27,5 @@ public class ChatManagerFactory {
             default:
                 return null;
         }
-    }
+    }          
 }
