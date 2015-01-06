@@ -1,4 +1,4 @@
-     package com.gmail.nossr50.chat       ;
+package com.gmail.nossr50.chat;          
 
 import org.bukkit.plugin.Plugin;
 
