@@ -42,6 +42,6 @@ public class PistonTrackerTask extends BukkitRunnable {
                 // Block doesn't have metadatakey but isTrue - set it to false
                 mcMMO.getPlaceStore().setFalse(nextBlock);
             }
-        }
+        }            
     }
-}
+}       
